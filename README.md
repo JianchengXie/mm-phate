@@ -28,7 +28,7 @@ Key components include:
 
 ## Visualization Examples
 
-<!-- Replace the placeholders below with your own figures -->
+![MM-PHATE Visualization](figures/embedding.png)
 
 ### Example 1: MM-PHATE vs PCA / t-SNE / Isomap
 
