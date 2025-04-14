@@ -30,16 +30,6 @@ Key components include:
 
 ![MM-PHATE Visualization](figures/embedding.png)
 
-### Example 1: MM-PHATE vs PCA / t-SNE / Isomap
-
-![Insert visualization here](path/to/your/image1.png)
-
----
-
-### Example 2: Tracking RNN Evolution Across Epochs
-
-![Insert visualization here](path/to/your/image2.png)
-
 ---
 
 ## Installation
