@@ -10,13 +10,14 @@ MM-PHATE (Multiway Multislice PHATE) is a novel dimensionality reduction framewo
 
 Unlike standard visualization methods which only focus on the final network state, MM-PHATE captures how RNN hidden representations evolve over both time steps and training epochs, revealing rich dynamics, community structure, and phases of information processing and compression.
 
-This repository contains code for implementing MM-PHATE on RNN hidden state data, along with examples and visualization utilities.
+This repository contains code for implementing MM-PHATE on RNN hidden state data, along with examples and visualization utilities. For more information, please refer to [the paper](https://arxiv.org/abs/2406.01969)
+
 
 ---
 
 ## Method at a Glance
 
-MM-PHATE extends the M-PHATE framework originally developed by Gigante et al. to handle the temporal nature of RNNs.
+MM-PHATE extends the M-PHATE framework originally developed by [Gigante et al.](https://github.com/scottgigante/m-phate?tab=readme-ov-file) to handle the temporal nature of RNNs.
 
 Key components include:
 - Multiway multislice kernel construction across epochs, time steps, and units
@@ -29,12 +30,3 @@ Key components include:
 ## Visualization Examples
 
 ![MM-PHATE Visualization](figures/embedding.png)
-
----
-
-## Installation
-
-```bash
-git clone https://github.com/your_username/MM-PHATE.git
-cd MM-PHATE
-pip install -r requirements.txt
