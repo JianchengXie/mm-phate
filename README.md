@@ -30,3 +30,72 @@ Key components include:
 ## Visualization Examples
 
 ![MM-PHATE Visualization](figures/embedding.png)
+
+---
+
+## Usage
+
+1. Prepare your RNN hidden state tensor with dimensions:
+```
+[EPOCHS, TIMESTEPS, UNITS, SAMPLES]
+```
+
+2. Construct the multiway multislice kernel using provided scripts.
+
+3. Apply MM-PHATE embedding.
+
+4. Visualize and analyze your results.
+
+Example usage:
+
+```python
+from mmphate import compute_kernel, apply_phate, plot_embedding
+
+K = compute_kernel(hidden_tensor)
+embedding = apply_phate(K)
+plot_embedding(embedding)
+```
+
+---
+
+## Acknowledgement & Citation
+
+MM-PHATE builds upon the M-PHATE framework by Gigante et al. (2019), which pioneered multislice visualization of feedforward neural networks. 
+
+If you use MM-PHATE in your research, please cite:
+
+> S. Gigante, A. Charles, S. Krishnaswamy, G. Mishne. *Visualizing the PHATE of Neural Networks.* arXiv preprint arXiv:1908.02831, 2019.
+
+M-PHATE repository: https://github.com/KrishnaswamyLab/MPHATE
+
+---
+
+## Paper
+
+For details of the MM-PHATE method, see:
+
+> *Multiway Multislice PHATE: Visualizing Hidden Dynamics of RNNs through Training.* [link to your paper or arXiv]
+
+---
+
+## License
+
+MIT License.
+
+---
+
+## Contact
+
+For questions or collaborations, please contact:
+
+*Your Name*  
+*Your Institution*  
+*Email: your_email@domain*
+
+---
+
+## TODO
+- [ ] Add example notebooks
+- [ ] Add support for GRU/Vanilla RNN
+- [ ] Optimize memory efficiency for large networks
+- [ ] Expand to Transformer models
