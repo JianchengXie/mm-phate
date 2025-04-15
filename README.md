@@ -63,6 +63,9 @@ The Area2_Bump folder is included and contains the preprocessed files:
 
 If you need to download and preprocess the original data, visit the [DANDI Archive](https://dandiarchive.org/dandiset/000127)
 
+If you use the Area2_Bump data in your research, please cite: 
+> Chowdhury, Raeed; Miller, Lee (2022) Area2_Bump: macaque somatosensory area 2 spiking activity during reaching with perturbations (Version 0.220113.0359) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000127/0.220113.0359
+
 3. Training the Model
    
 To train the LSTM model and perform MM‑PHATE analysis, run:
