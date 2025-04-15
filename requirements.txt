@@ -1,0 +1,7 @@
+tensorflow>=2.0
+numpy>=1.19.2
+matplotlib==3.3.4
+scipy==1.5.4
+scikit-learn==0.24.2
+m-phate==0.1.6
+scprep==1.2.2
